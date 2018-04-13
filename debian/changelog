@@ -1,0 +1,5 @@
+gamemode (1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnn)
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 13 Apr 2018 17:35:22 +0200
