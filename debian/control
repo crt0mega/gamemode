@@ -1,8 +1,16 @@
 Source: gamemode
-Section: games
+Section: utils
 Priority: optional
 Maintainer: Jonathan Carter <jcc@debian.org>
-Build-Depends: debhelper (>= 11), meson, libsystemd-dev, pkg-config, ninja-build, systemd, git, libinih1, libinih-dev
+Build-Depends: debhelper (>= 11),
+               git,
+               libinih-dev,
+               libinih1,
+               libsystemd-dev,
+               meson,
+               ninja-build,
+               pkg-config,
+               systemd
 Standards-Version: 4.1.4
 Homepage: https://github.com/FeralInteractive/gamemode
 Vcs-Git: https://salsa.debian.org/games-team/gamemode.git
@@ -10,7 +18,7 @@ Vcs-Browser: https://salsa.debian.org/games-team/gamemode
 
 Package: gamemode
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
  of optimisations be temporarily applied to the host OS.
@@ -25,5 +33,5 @@ Description: Optimise Linux system performance on demand
  .
  GameMode was designed primarily as a stop-gap solution to problems with
  the Intel and AMD CPU powersave or ondemand governors, but is intended to
- be expanded beyond just CPU governor states, as there are a wealth of 
+ be expanded beyond just CPU governor states, as there are a wealth of
  automation tasks one might want to apply.

@@ -3,4 +3,9 @@
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
-	dh $@ --with-dbus-service-dir=/lib/systemd/user
+	dh $@ --with-dbus-service-dir=/lib/systemd/user --prefix=/usr
+
+#override_dh_install:
+#	dh_install
+#	mkdir -p debian/gamemode/usr/lib/gamemode
+#	mv debian/gamemode/usr/lib/x* debian/gamemode/usr/lib/gamemode/
