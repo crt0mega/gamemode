@@ -1,0 +1,3 @@
+libgamemodeauto.so.0 libgamemodeauto0 #MINVER#
+ gamemode_request_end@Base 0.0.0
+ gamemode_request_start@Base 0.0.0
