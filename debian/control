@@ -11,13 +11,13 @@ Build-Depends: debhelper (>= 11),
                ninja-build,
                pkg-config,
                systemd
-Standards-Version: 4.1.5
+Standards-Version: 4.2.0
 Homepage: https://github.com/FeralInteractive/gamemode
 Vcs-Git: https://salsa.debian.org/games-team/gamemode.git
 Vcs-Browser: https://salsa.debian.org/games-team/gamemode
 
 Package: gamemode
-Architecture: any
+Architecture: amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}, libgamemode0, libgamemodeauto0
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
@@ -37,7 +37,7 @@ Description: Optimise Linux system performance on demand
  automation tasks one might want to apply.
 
 Package: libgamemode0
-Architecture: any
+Architecture: amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
@@ -60,7 +60,7 @@ Description: Optimise Linux system performance on demand
 
 Package: libgamemode0-dev
 Section: libdevel
-Architecture: any
+Architecture: amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
@@ -83,7 +83,7 @@ Description: Optimise Linux system performance on demand
  for gamemode.
 
 Package: libgamemodeauto0
-Architecture: any
+Architecture: amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
@@ -106,7 +106,7 @@ Description: Optimise Linux system performance on demand
 
 Package: libgamemodeauto0-dev
 Section: libdevel
-Architecture: any
+Architecture: amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set

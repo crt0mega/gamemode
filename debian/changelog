@@ -1,3 +1,11 @@
+gamemode (1.2-2) unstable; urgency=medium
+
+  * Upload to unstable
+  * Set architecture to amd64 (only arch supported upstream)
+  * Update standards version to 4.2.0
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 03 Aug 2018 10:32:48 +0200
+
 gamemode (1.2-1) experimental; urgency=medium
 
   * Initial release (Closes: #898213)
