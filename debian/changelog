@@ -1,3 +1,16 @@
+gamemode (1.2-4) unstable; urgency=medium
+
+  * Add debian/source directory
+  * Add watch file
+
+ -- Jonathan Carter <jcc@debian.org>  Sun, 05 Aug 2018 17:04:23 +0200
+
+gamemode (1.2-3) unstable; urgency=medium
+
+  * Fix -dev package names and relationships (Closes: #905413)
+
+ -- Jonathan Carter <jcc@debian.org>  Sun, 05 Aug 2018 16:33:16 +0200
+
 gamemode (1.2-2) unstable; urgency=medium
 
   * Upload to unstable

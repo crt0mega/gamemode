@@ -58,10 +58,12 @@ Description: Optimise Linux system performance on demand
  .
  This package provides the base library for gamemode.
 
-Package: libgamemode0-dev
+Package: libgamemode-dev
+Replaces: libgamemode0-dev
+Breaks: libgamemode0-dev
 Section: libdevel
 Architecture: amd64
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, libgamemode
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
  of optimisations be temporarily applied to the host OS.
@@ -104,10 +106,12 @@ Description: Optimise Linux system performance on demand
  .
  This package provides the libgamemodeauto library.
 
-Package: libgamemodeauto0-dev
+Package: libgamemodeauto-dev
+Replaces: libgamemodeauto0-dev
+Breaks: libgamemodeauto0-dev
 Section: libdevel
 Architecture: amd64
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, libgamemodeauto
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
  of optimisations be temporarily applied to the host OS.
