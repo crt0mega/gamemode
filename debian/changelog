@@ -1,7 +1,10 @@
 gamemode (1.2-4) unstable; urgency=medium
 
+  * Remove debian/gamemode.1 manpage (now provided upstream)
   * Add debian/source directory
   * Add watch file
+  * Fix copyright for subprojects/inih (Closes: #905552)
+  * Add triggers file for ldconfig
 
  -- Jonathan Carter <jcc@debian.org>  Sun, 05 Aug 2018 17:04:23 +0200
 
