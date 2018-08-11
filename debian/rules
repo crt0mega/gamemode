@@ -3,5 +3,5 @@
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
-	dh $@ --with-dbus-service-dir=/lib/systemd/user --prefix=/usr
+	dh $@ --with-dbus-service-dir=/lib/systemd/user --prefix=/usr --wrap-mode=forcefallback
 
