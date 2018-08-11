@@ -63,7 +63,7 @@ Replaces: libgamemode0-dev
 Breaks: libgamemode0-dev
 Section: libdevel
 Architecture: amd64
-Depends: ${misc:Depends}, ${shlibs:Depends}, libgamemode
+Depends: ${misc:Depends}, ${shlibs:Depends}, libgamemode, (= ${binary:Version})
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
  of optimisations be temporarily applied to the host OS.
@@ -111,7 +111,7 @@ Replaces: libgamemodeauto0-dev
 Breaks: libgamemodeauto0-dev
 Section: libdevel
 Architecture: amd64
-Depends: ${misc:Depends}, ${shlibs:Depends}, libgamemodeauto
+Depends: ${misc:Depends}, ${shlibs:Depends}, libgamemodeauto (= ${binary:Version})
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
  of optimisations be temporarily applied to the host OS.

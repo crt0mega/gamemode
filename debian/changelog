@@ -1,7 +1,14 @@
+gamemode (1.2-5) unstable; urgency=medium
+
+  * Add versioned dependency for -dev packates (Closes: #905413)
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 11 Aug 2018 11:18:56 +0200
+
 gamemode (1.2-4) unstable; urgency=medium
 
   * Add debian/source directory
   * Add watch file
+  * Use upstream manpage
 
  -- Jonathan Carter <jcc@debian.org>  Sun, 05 Aug 2018 17:04:23 +0200
 
