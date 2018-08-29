@@ -1,3 +1,10 @@
+gamemode (1.2-6) unstable; urgency=medium
+
+  * Correct ABI name in -dev packages dependencies
+  * Update standards version to 4.2.1
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 29 Aug 2018 20:18:44 +0200
+
 gamemode (1.2-5) unstable; urgency=medium
 
   * Add versioned dependency for -dev packates (Closes: #905413)
