@@ -1,0 +1,6 @@
+# SymbolsHelper-Confirmed: 0.0.0 amd64
+libgamemode.so.0 libgamemode0 #MINVER#
+ real_gamemode_error_string@Base 0.0.0
+ real_gamemode_query_status@Base 0.0.0
+ real_gamemode_request_end@Base 0.0.0
+ real_gamemode_request_start@Base 0.0.0
