@@ -1,3 +1,10 @@
+gamemode (1.2-6.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Added i386 arch because ... wtf not?
+
+ -- crt0mega <crt0mega@c-r-t.tk>  Wed, 28 Nov 2018 12:40:04 +0100
+
 gamemode (1.2-6) unstable; urgency=medium
 
   * Correct ABI name in -dev packages dependencies

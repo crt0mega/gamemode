@@ -17,7 +17,7 @@ Vcs-Git: https://salsa.debian.org/games-team/gamemode.git
 Vcs-Browser: https://salsa.debian.org/games-team/gamemode
 
 Package: gamemode
-Architecture: amd64
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}, libgamemode0, libgamemodeauto0
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
@@ -37,7 +37,7 @@ Description: Optimise Linux system performance on demand
  automation tasks one might want to apply.
 
 Package: libgamemode0
-Architecture: amd64
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
@@ -62,7 +62,7 @@ Package: libgamemode-dev
 Replaces: libgamemode0-dev
 Breaks: libgamemode0-dev
 Section: libdevel
-Architecture: amd64
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}, libgamemode0 (= ${binary:Version})
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
@@ -85,7 +85,7 @@ Description: Optimise Linux system performance on demand
  for gamemode.
 
 Package: libgamemodeauto0
-Architecture: amd64
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
@@ -110,7 +110,7 @@ Package: libgamemodeauto-dev
 Replaces: libgamemodeauto0-dev
 Breaks: libgamemodeauto0-dev
 Section: libdevel
-Architecture: amd64
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}, libgamemodeauto0 (= ${binary:Version})
 Description: Optimise Linux system performance on demand
  GameMode is a daemon/lib combo for Linux that allows games to request a set
